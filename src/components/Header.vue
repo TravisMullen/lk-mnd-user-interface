@@ -3,7 +3,7 @@
     <div class="logo-container">
     	<router-link to="/"><img alt="logo" src="../assets/lk-mnd.svg"></router-link>
     </div>
-    
+
     <div class="nav">
       <router-link to="/about">About</router-link>
     </div>
@@ -23,13 +23,13 @@ export default {
 	  this.className = to.params.name
 	  console.log('this.className', to.params.name, this.className)
 	  next()
-	}
+  }
 }
 </script>
 
 <style lang="scss">
 	@import '../assets/styles/settings';
-	.header {	
+	.header {
 		overflow: hidden;
 		text-align: left;
 		// display: flex;
@@ -39,7 +39,7 @@ export default {
     // flex: 1 0 auto;
     // transition: transform 1s;
     transition: border-bottom-color 0.3s ease-out 1.0s;
-		
+
 		.nav {
 			text-align: center;
 		}

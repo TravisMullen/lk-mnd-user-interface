@@ -8,7 +8,7 @@
     </section>
     <div class="page-footer">
       <a href="mailto:info@likemindedmgmt.com">info@likemindedmgmt.com</a>
-      <div class="label">(818) 200-5478</div>
+      <div class="label">(866) 830-4644</div>
     </div>
   </div>
 </template>
@@ -82,7 +82,7 @@ body {
     display: inline-flex;
     justify-content: space-between;
     a,
-    .label { 
+    .label {
       color: #ececec;
       text-decoration: none;
       display: block;
@@ -90,6 +90,9 @@ body {
       padding: 4px 8px 0 8px;
     }
     padding-bottom: 4px;
+  }
+  .about {
+    padding: 4px 32px 32px 16px;
   }
 }
 </style>
