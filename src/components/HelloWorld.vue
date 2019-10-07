@@ -15,6 +15,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+  @import '../assets/styles/settings';
 h1 {
   margin: 40px 0;
 }
@@ -27,6 +28,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #5a2a90;
+  color: $primary-color;
 }
 </style>

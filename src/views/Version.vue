@@ -1,6 +1,6 @@
 <template>
-  <div v-once class="home">
-    <HelloWorld :msg="msg"/>
+  <div v-once class="text-content">
+    <HelloWorld :msg="release"/>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
   name: 'home',
   data () {
     return {
-      msg: require('@/assets/content.json').headline
+      release: process.env.VUE_APP_RELEASE
     }
   },
   components: {

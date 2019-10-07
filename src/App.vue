@@ -91,7 +91,7 @@ body {
     }
     padding-bottom: 4px;
   }
-  .about {
+  .text-content {
     padding: 4px 32px 32px 16px;
   }
 }

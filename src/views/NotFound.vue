@@ -1,5 +1,5 @@
 <template>
-  <div v-once class="home">
+  <div v-once class="not-found">
     <HelloWorld :msg="msg"/>
   </div>
 </template>
@@ -9,10 +9,10 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
+  name: 'not-found',
   data () {
     return {
-      msg: require('@/assets/content.json').headline
+      msg: 'Opps. The droid you are looking for are no longer here.'
     }
   },
   components: {
