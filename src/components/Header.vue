@@ -5,7 +5,9 @@
     </div>
 
     <div class="nav">
-      <router-link to="/about">About</router-link>
+      <router-link to="/company">Company</router-link>
+      <router-link to="/leadership">Leadership</router-link>
+      <!-- <router-link to="/artists">Artists</router-link> -->
     </div>
   </div>
 </template>
