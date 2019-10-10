@@ -5,8 +5,8 @@
     </div>
 
     <div class="nav">
-      <router-link to="/company">Company</router-link>
-      <router-link to="/leadership">Leadership</router-link>
+      <router-link to="/company">Mission</router-link>
+      <!-- <router-link to="/leadership">Leadership</router-link> -->
       <!-- <router-link to="/artists">Artists</router-link> -->
     </div>
   </div>
@@ -48,7 +48,7 @@ export default {
     .logo-container {
       transition: all 1s;
         tranform-origin: left;
-        transform: rotate(0) translate(0);
+        transform: translate(0);
       img {
         transition: all 1s;
         width: 40px;
@@ -60,16 +60,16 @@ export default {
       .logo-container {
         transition: all 0.2s;
         // transform: rotate(0) translate(calc(50% - 20px),0);
-        img {
-          transform: rotate(-180deg);
-        }
+        // img {
+        //   transform: rotate(-180deg);
+        // }
       }
     }
     .home & {
       .logo-container {
       padding-bottom: 20px;
     // //   flex: 1 0 90%;
-          transform: rotate(15deg) translate(calc(50vw - 150px),0);
+          transform: translate(calc(50vw - 150px),0);
         img {
           width: 300px;
         }
