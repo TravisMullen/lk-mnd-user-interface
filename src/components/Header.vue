@@ -1,7 +1,7 @@
 <template>
   <div class="header" :class="className">
     <div class="logo-container">
-      <router-link to="/"><img alt="logo" src="../assets/lk-mnd.svg"></router-link>
+      <router-link to="/"><img alt="logo" src="../assets/likemindedttext.svg"></router-link>
     </div>
 
     <div class="nav">
@@ -51,7 +51,7 @@ export default {
         transform: translate(0);
       img {
         transition: all 1s;
-        width: 40px;
+        width: 10vw;
       }
         padding-bottom: 0;
     }
@@ -69,9 +69,9 @@ export default {
       .logo-container {
       padding-bottom: 20px;
     // //   flex: 1 0 90%;
-          transform: translate(calc(50vw - 150px),0);
+          transform: translate(30vw,0);
         img {
-          width: 300px;
+          width: 40vw;
         }
       }
 
